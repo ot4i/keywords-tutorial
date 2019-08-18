@@ -33,7 +33,7 @@
         "_common": 
 		{
             "name": "Using custom keywords with message flows ",
-            "shortDescription": "Learn how to assign custom keywords to message flows and then once deployed, read the keywords using the Java Integration API",			
+            "shortDescription": "Learn how to assign custom keywords to message flows and then once deployed, read the keywords using the Java Integration API (requires v11.0.0.5 or higher).",			
 			"durationText": "This tutorial takes approximately",
             "durationTime": "10 minutes",
             "_resourceToOpenComment": "The ID of the first resource to open when the user imports the tutorial. Resource IDs are defined in the repo_metadata.json Tutorials listing on ot4i.",
