@@ -109,7 +109,7 @@
                     "sections": 
 					[
                         {
-                            "section": "When you click Import, two projects will be created in your workspace: An application named <span class='application'>ExampleKeywords</span> and a Java project name <span class='application'>ExampleKeywordsJava</span>."
+                            "section": "When you click Import, two projects will be created in your workspace: An application named <span class='application'>ExampleKeywords</span> and a Java project named <span class='application'>ExampleKeywordsJava</span>. In the Integration Development perspective, java projects are shown as dependencies, so to see <span class='application'>ExampleKeywordsJava</span> you should expand the Java section of the <span class='application'>ExampleKeywords</span> application."
                         },
                         {
                             "section": "<span class='application'>ExampleKeywords</span> provides a single message flow named <span class='resource'>Keywords</span>. The message flow provides an HTTPInput node wired to a JavaCompute node, then an HTTPReply. The HTTPInput node is configured to receive any input message as BLOB. The JavaCompute node creates an XML output message. The output message carries basic details about the flow and where it is deployed, including the names and values of some custom keywords which were defined in the Long Description field of the flow."
@@ -209,7 +209,7 @@
                                             "details": "<span class='resource'>InputMessage</span> contains this data:<br><span class='resource'>The input data can be anything!</span>"											
 										},
 										{
-                                            "details": "Click on the reply message and you will see that it contains this data:<br><span class='resource'>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;<br>&lt;Message&gt;<br>&nbsp;&nbsp;&lt;NodeName&gt;ACEv11005&lt;/NodeName&gt;<br>&nbsp;&nbsp;&lt;ServerName&gt;server1&lt;/ServerName&gt;<br>&nbsp;&nbsp;&lt;ApplicationName&gt;ExampleKeywords&lt;/ApplicationName&gt;<br>&nbsp;&nbsp;&lt;FlowName&gt;Keywords&lt;/FlowName&gt;<br>&nbsp;&nbsp;&lt;Keywords&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;Author&gt;Ben Thompson&lt;/Author&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;Environment&gt;Demo&lt;/Environment&gt;<br>&nbsp;&nbsp;&lt;/Keywords&gt;<br>&lt;/Message&gt;</span>"											
+                                            "details": "Click on the reply message and you will see that it contains this data:<br><span class='resource'>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;<br>&lt;Message&gt;<br>&nbsp;&nbsp;&lt;NodeName&gt;TESTNODE&lt;/NodeName&gt;<br>&nbsp;&nbsp;&lt;ServerName&gt;default&lt;/ServerName&gt;<br>&nbsp;&nbsp;&lt;ApplicationName&gt;ExampleKeywords&lt;/ApplicationName&gt;<br>&nbsp;&nbsp;&lt;FlowName&gt;Keywords&lt;/FlowName&gt;<br>&nbsp;&nbsp;&lt;Keywords&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;Author&gt;Ben Thompson&lt;/Author&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;Environment&gt;Demo&lt;/Environment&gt;<br>&nbsp;&nbsp;&lt;/Keywords&gt;<br>&lt;/Message&gt;</span>"											
 										},
 										{
                                             "details": "After you close the dialog, the path taken through the message flow is highlighted."
