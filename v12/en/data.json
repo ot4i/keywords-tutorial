@@ -33,7 +33,7 @@
         "_common": 
 		{
             "name": "Using custom keywords with message flows ",
-            "shortDescription": "Learn how to assign custom keywords to message flows and then once deployed, read the keywords using the Java Integration API (requires v11.0.0.5 or higher).",			
+            "shortDescription": "Learn how to assign custom keywords to message flows and then once deployed, read the keywords using the Java Integration API.",			
 			"durationText": "This tutorial takes approximately",
             "durationTime": "10 minutes",
             "_resourceToOpenComment": "The ID of the first resource to open when the user imports the tutorial. Resource IDs are defined in the repo_metadata.json Tutorials listing on ot4i.",
@@ -54,7 +54,7 @@
                     "title": "Using custom keywords with message flows"
                 },
                 {
-                    "title": "ACEv11 Java IBM Integration API"
+                    "title": "Java IBM Integration API"
                 }
             ],
             "outcomesName": "Learning outcomes",
@@ -68,14 +68,14 @@
             "summary": 
 			{
                 "overviewName": "OVERVIEW",
-                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the ACE concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
+                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
                 "sections": 
 				[
                     {
-                        "section": "This tutorial demonstrates an application which contains a single message flow which has had two custom keywords defined in its Long Description field. The message flow has an HTTPInput node, a JavaCompute node and an HTTPReply node. The Java code which runs inside the JavaCompute node uses the ACEv11 Java Integration API's com.ibm.broker.config.proxy.* classes to query the keywords and their values which are included in the response message from the flow."
+                        "section": "This tutorial demonstrates an application which contains a single message flow which has had two custom keywords defined in its Long Description field. The message flow has an HTTPInput node, a JavaCompute node and an HTTPReply node. The Java code which runs inside the JavaCompute node uses the Java Integration API's com.ibm.broker.config.proxy.* classes to query the keywords and their values which are included in the response message from the flow."
 					},
 					{
-                        "section": "The tutorial requires an ACE integration node owned server, or a stand-alone integration server. The same message flow and the administration API can be used regardless of the selected deployment target."
+                        "section": "The tutorial requires an integration node owned server, or a stand-alone integration server. The same message flow and the administration API can be used regardless of the selected deployment target."
                     },
                     {
                         "section": "In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution."
