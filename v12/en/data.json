@@ -32,7 +32,7 @@
 	{
         "_common": 
 		{
-            "name": "Using custom keywords with message flows ",
+            "name": "Using custom keywords with message flows",
             "shortDescription": "Learn how to assign custom keywords to message flows and then once deployed, read the keywords using the Java Integration API.",			
 			"durationText": "This tutorial takes approximately",
             "durationTime": "10 minutes",
